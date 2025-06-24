@@ -15,32 +15,36 @@
   </header>
 
   <form class="form-container">
-    <div>
-      <label for="fullname">Nome Completo</label>
-      <input id="fullname" type="text" />
+    <div class="form-row">
+      <label class="form-label" for="fullname">Nome Completo</label>
+      <input class="form-input" id="fullname" type="text"  placeholder="Digite seu nome completo..." required />
     </div>
-    <div>
-      <label for="email">E-mail</label>
-      <input id="email" type="email" />
+    <div class="form-row">
+      <label class="form-label" for="email">E-mail</label>
+      <input class="form-input" id="email" type="email"  placeholder="Digite seu e-mail..." required />
     </div>
-    <div>
-      <label for="password">Senha</label>
-      <input id="password" type="password" />
+    <div class="form-row">
+      <label class="form-label" for="password">Senha</label>
+      <input class="form-input" id="password" type="password"  placeholder="Digite sua senha..." required />
     </div>
-    <div>
-      <label for="birthDate">Data de nascimento</label>
-      <input id="birthDate" type="date" />
+    <div class="form-row">
+      <label class="form-label" for="birthDate">Data de nascimento</label>
+      <input class="form-input" id="birthDate" type="date" placeholder="Selecione sua data de nascimento..." />
     </div>
-    <div>
-      <label for="gender">Gênero</label>
-      <select id="gender" name="gender" type="select" >
+    <div class="form-row">
+      <label class="form-label" for="gender">Gênero</label>
+      <select class="form-input" id="gender" name="gender" type="select" required >
         <option value="Masculino">Masculino</option>
         <option value="Feminino">Feminino</option>
         <option value="Outro">Outro</option>
       </select> 
     </div>
-    <div>
-      <input type="submit" value="Criar conta" />
+    <div class="form-row">
+      <input id="privacyTerms" type="checkbox" />
+      <label class="form-small-label" for="privacyTerms">Aceito as políticas de privacidade.</label>
+    </div>
+    <div class="form-row">
+      <input class="form-button" type="submit" value="Criar conta" />
     </div>
   </form>
 

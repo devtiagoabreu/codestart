@@ -22,6 +22,44 @@ header {
   border: 2px solid #333333;
   border-radius: 5px;
   padding: 20px;
-  margin-top: 40px;
-   
+  margin-top: 40px;   
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+.form-label {
+  display: block;
+  font-weight: 500;
+}
+
+.form-small-label {
+  display: inline;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.form-input {
+ padding: 10px;
+ border: none;
+ background-color: #eeeeee;
+ border-radius: 5px;
+ width: 100%;
+}
+
+.form-input:focus{
+  outline-color: #888888;  
+}
+
+.form-button {
+  padding: 10px;
+  color: #eeeeee;
+  background-color: #333333;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  margin-top: 5px;
+
 }
